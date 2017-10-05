@@ -14,6 +14,8 @@
 		185834741F869AC300C868C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185834721F869AC300C868C1 /* LaunchScreen.storyboard */; };
 		185834771F869AC300C868C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 185834761F869AC300C868C1 /* main.m */; };
 		1858347F1F869AF500C868C1 /* LocationConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1858347D1F869AF500C868C1 /* LocationConverter.m */; };
+		185834811F869B3600C868C1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 185834801F869B3600C868C1 /* README.md */; };
+		185834831F869B7B00C868C1 /* Location.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 185834821F869B7B00C868C1 /* Location.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		185834761F869AC300C868C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1858347D1F869AF500C868C1 /* LocationConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationConverter.m; sourceTree = "<group>"; };
 		1858347E1F869AF500C868C1 /* LocationConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationConverter.h; sourceTree = "<group>"; };
+		185834801F869B3600C868C1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		185834821F869B7B00C868C1 /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 				185834721F869AC300C868C1 /* LaunchScreen.storyboard */,
 				185834751F869AC300C868C1 /* Info.plist */,
 				185834761F869AC300C868C1 /* main.m */,
+				185834801F869B3600C868C1 /* README.md */,
+				185834821F869B7B00C868C1 /* Location.gpx */,
 			);
 			path = CustomGPS;
 			sourceTree = "<group>";
@@ -136,6 +142,8 @@
 			files = (
 				185834741F869AC300C868C1 /* LaunchScreen.storyboard in Resources */,
 				185834711F869AC300C868C1 /* Assets.xcassets in Resources */,
+				185834831F869B7B00C868C1 /* Location.gpx in Resources */,
+				185834811F869B3600C868C1 /* README.md in Resources */,
 				1858346F1F869AC300C868C1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
