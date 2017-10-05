@@ -17,6 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
     
     // 首先需要在配置gpx文件: 进入Product-Edit Scheme-Edit Scheme菜单, 选择Run-Options,在 Core Location项目中选中Allow Location Simulation复选框,然后在 Default Location选择gpx文件

@@ -16,6 +16,11 @@
 		1858347F1F869AF500C868C1 /* LocationConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1858347D1F869AF500C868C1 /* LocationConverter.m */; };
 		185834811F869B3600C868C1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 185834801F869B3600C868C1 /* README.md */; };
 		185834831F869B7B00C868C1 /* Location.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 185834821F869B7B00C868C1 /* Location.gpx */; };
+		185834861F86A0A900C868C1 /* CLLocation+GPSBasedExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 185834851F86A0A900C868C1 /* CLLocation+GPSBasedExtensions.m */; };
+		185834891F86A13000C868C1 /* NSDictionary+CLLocationBasedExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 185834881F86A13000C868C1 /* NSDictionary+CLLocationBasedExtensions.m */; };
+		1858348C1F86A5BF00C868C1 /* ChangePhotoGPSController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1858348B1F86A5BF00C868C1 /* ChangePhotoGPSController.m */; };
+		1858348F1F86A6C000C868C1 /* UploadImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1858348E1F86A6C000C868C1 /* UploadImageView.m */; };
+		185834921F86A6E100C868C1 /* UIToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 185834911F86A6E100C868C1 /* UIToast.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +38,16 @@
 		1858347E1F869AF500C868C1 /* LocationConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationConverter.h; sourceTree = "<group>"; };
 		185834801F869B3600C868C1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		185834821F869B7B00C868C1 /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
+		185834841F86A0A900C868C1 /* CLLocation+GPSBasedExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CLLocation+GPSBasedExtensions.h"; sourceTree = "<group>"; };
+		185834851F86A0A900C868C1 /* CLLocation+GPSBasedExtensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CLLocation+GPSBasedExtensions.m"; sourceTree = "<group>"; };
+		185834871F86A13000C868C1 /* NSDictionary+CLLocationBasedExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CLLocationBasedExtensions.h"; sourceTree = "<group>"; };
+		185834881F86A13000C868C1 /* NSDictionary+CLLocationBasedExtensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CLLocationBasedExtensions.m"; sourceTree = "<group>"; };
+		1858348A1F86A5BF00C868C1 /* ChangePhotoGPSController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangePhotoGPSController.h; sourceTree = "<group>"; };
+		1858348B1F86A5BF00C868C1 /* ChangePhotoGPSController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangePhotoGPSController.m; sourceTree = "<group>"; };
+		1858348D1F86A6C000C868C1 /* UploadImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadImageView.h; sourceTree = "<group>"; };
+		1858348E1F86A6C000C868C1 /* UploadImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadImageView.m; sourceTree = "<group>"; };
+		185834901F86A6E100C868C1 /* UIToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIToast.h; sourceTree = "<group>"; };
+		185834911F86A6E100C868C1 /* UIToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIToast.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,10 +82,20 @@
 			children = (
 				1858347E1F869AF500C868C1 /* LocationConverter.h */,
 				1858347D1F869AF500C868C1 /* LocationConverter.m */,
+				185834841F86A0A900C868C1 /* CLLocation+GPSBasedExtensions.h */,
+				185834851F86A0A900C868C1 /* CLLocation+GPSBasedExtensions.m */,
+				185834871F86A13000C868C1 /* NSDictionary+CLLocationBasedExtensions.h */,
+				185834881F86A13000C868C1 /* NSDictionary+CLLocationBasedExtensions.m */,
 				185834671F869AC300C868C1 /* AppDelegate.h */,
 				185834681F869AC300C868C1 /* AppDelegate.m */,
 				1858346A1F869AC300C868C1 /* ViewController.h */,
 				1858346B1F869AC300C868C1 /* ViewController.m */,
+				1858348A1F86A5BF00C868C1 /* ChangePhotoGPSController.h */,
+				1858348B1F86A5BF00C868C1 /* ChangePhotoGPSController.m */,
+				1858348D1F86A6C000C868C1 /* UploadImageView.h */,
+				1858348E1F86A6C000C868C1 /* UploadImageView.m */,
+				185834901F86A6E100C868C1 /* UIToast.h */,
+				185834911F86A6E100C868C1 /* UIToast.m */,
 				1858346D1F869AC300C868C1 /* Main.storyboard */,
 				185834701F869AC300C868C1 /* Assets.xcassets */,
 				185834721F869AC300C868C1 /* LaunchScreen.storyboard */,
@@ -155,10 +180,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185834891F86A13000C868C1 /* NSDictionary+CLLocationBasedExtensions.m in Sources */,
 				1858346C1F869AC300C868C1 /* ViewController.m in Sources */,
+				185834921F86A6E100C868C1 /* UIToast.m in Sources */,
+				185834861F86A0A900C868C1 /* CLLocation+GPSBasedExtensions.m in Sources */,
 				185834771F869AC300C868C1 /* main.m in Sources */,
 				185834691F869AC300C868C1 /* AppDelegate.m in Sources */,
+				1858348C1F86A5BF00C868C1 /* ChangePhotoGPSController.m in Sources */,
 				1858347F1F869AF500C868C1 /* LocationConverter.m in Sources */,
+				1858348F1F86A6C000C868C1 /* UploadImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
