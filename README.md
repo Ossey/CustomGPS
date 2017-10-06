@@ -1,4 +1,4 @@
-# Custom gps
+ Custom gps
 =======================
 
 利用Xcode模拟定位， 更改任意位置，可使任意App的当前的位置发生改变：比如微信发送朋友圈指定位置、钉钉打卡等等；
@@ -16,8 +16,8 @@
 坐标获取入口：
 ------------
 
-[高德](http://lbs.amap.com/console/show/picker)
-[百度](http://api.map.baidu.com/lbsapi/getpoint/index.html)
+- [高德](http://lbs.amap.com/console/show/picker)
+- [百度](http://api.map.baidu.com/lbsapi/getpoint/index.html)
 
 iPhone所需要的坐标是WGS-84，我们获取的是GCJ-02, 所以我们可以带坐标进行转换
 CLLocation *location = [[CLLocation alloc] initWithLatitude:30.266732 longitude:119.956855];
