@@ -6,12 +6,11 @@
 
 坐标系统：
 ------------
-
 目前我们经常接触的无非就是原始坐标，火星坐标，二次加密坐标。
 
-原始坐标：手机上获取到的是原始的GPS坐标 —— WGS-84。
-火星坐标：天朝自己的一套加密坐标，中国国测局—— GCJ-02：谷歌、高德。
-百度加密坐标：在火星坐标的基础上再次加密坐标 —— BD-09：百度。
+- 原始坐标：手机上获取到的是原始的GPS坐标 —— WGS-84
+- 火星坐标：天朝自己的一套加密坐标，中国国测局—— GCJ-02：谷歌、高德
+- 百度加密坐标：在火星坐标的基础上再次加密坐标 —— BD-09：百度
 
 坐标获取入口：
 ------------
@@ -20,9 +19,11 @@
 - [百度](http://api.map.baidu.com/lbsapi/getpoint/index.html)
 
 iPhone所需要的坐标是WGS-84，我们获取的是GCJ-02, 所以我们可以带坐标进行转换
-CLLocation *location = [[CLLocation alloc] initWithLatitude:30.266732 longitude:119.956855];
-CLLocationCoordinate2D coord2d = [LocationConverter gcj02ToWgs84:location.coordinate];
-
+```
+    CLLocation *location = [[CLLocation alloc] initWithLatitude:30.266732 longitude:119.956855];
+    CLLocationCoordinate2D coord2d = [LocationConverter gcj02ToWgs84:location.coordinate];
+    NSLog(@"纬度: %f, 经度:%f", coord2d.latitude, coord2d.longitude);
+```
 添加一个GPX文件，把转换得到的原始坐标对应到lat和lon在文件中替换掉
 --------------------
 ```
