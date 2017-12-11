@@ -24,7 +24,7 @@
     // 首先需要在配置gpx文件: 进入Product-Edit Scheme-Edit Scheme菜单, 选择Run-Options,在 Core Location项目中选中Allow Location Simulation复选框,然后在 Default Location选择gpx文件
     
     // 将需要定位坐标转换为wps坐标
-    CLLocation *location = [[CLLocation alloc] initWithLatitude:30.266732 longitude:119.956855];
+    CLLocation *location = [[CLLocation alloc] initWithLatitude:31.311281 longitude:120.628774];
     CLLocationCoordinate2D coord2d = [LocationConverter gcj02ToWgs84:location.coordinate];
     NSLog(@"纬度: %f, 经度:%f", coord2d.latitude, coord2d.longitude);
     

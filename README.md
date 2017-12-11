@@ -56,3 +56,7 @@ iPhone所需要的坐标是WGS-84，我们获取的是GCJ-02, 所以我们可以
 配置Scheme:
 ---------------------------
 首先需要在配置gpx文件: 进入Product-Edit Scheme-Edit Scheme菜单, 选择Run-Options,在 Core Location项目中选中Allow Location Simulation复选框,然后在 Default Location选择gpx文件
+
+---------------------------
+升级到Xcode 9 设置的.gpx文件无效:
+解决方法：通过xcode新建一个gpx文件即可(xcode的菜单：File - New - File - GPX File)
